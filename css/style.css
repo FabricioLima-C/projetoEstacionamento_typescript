@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.section-register {
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex-grow: 1;
+}
+
+#register {
+  max-width: 150px;
+  margin-left: 10px;
+}
+
+#placa {
+  margin-left: 10px;
+}
+
+#register:hover {
+  background-color: rgb(63, 64, 65);
+  color: #fff;
+}
